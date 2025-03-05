@@ -21,3 +21,9 @@ let numbers = input.split(",").map((num) => parseFloat(num.trim())); // Converti
 function double(num) {
   return num * 2;
 }
+
+// Aplicar la función map
+let doubledNumbers = map(numbers, double);
+
+console.log("Resultado:", doubledNumbers);
+alert("Resultado: " + doubledNumbers.join(", "));
