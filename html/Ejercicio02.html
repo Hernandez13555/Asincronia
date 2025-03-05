@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="/css/Ejercicios.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Ejercicio 2</h1>
+    </header>
+    <nav class="navigation">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link" href="/index.html">Lista de Ejercicios</a>
+        </li>
+      </ul>
+      <p class="enunciado">
+        2. En el siguiente código hay una llamada programada setTimeout, luego
+        se ejecuta un cálculo pesado que demora más de 100 ms en finalizar.
+      </p>
+
+      <h2 class="enunciado">
+        ¿Cuándo se ejecutará la función programada y por qué se ejecutará?
+      </h2>
+      <h3 class="enunciado">
+        a) Después del bucle: La función programada en setTimeout se ejecutará
+        después de que el bucle haya terminado, porque el hilo principal de
+        JavaScript está ocupado con el bucle y no puede atender la cola de
+        eventos hasta finalizarlo.
+      </h3>
+      <p class="enunciado">b) Antes del bucle.</p>
+      <p class="enunciado">c) Al comienzo del bucle.</p>
+      <h4 class="enunciado">¿Qué va a mostrar alert()?</h4>
+      <h5 class="enunciado">
+        Rta: alert(i); se ejecutará después del bucle, mostrando i en la alerta.
+      </h5>
+    </nav>
+
+    <script src="/js/Ejercicio02.js"></script>
+  </body>
+</html>
